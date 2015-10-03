@@ -1,0 +1,18 @@
+You're welcome!
+
+If you have the same sensor as I have lying around here, you have to attach the VCC (on the MQ-7) to the 5 volt pin on the RPi. The GND goes to ground, and the AOUT goes to the analogue-digital converter. The basic RPi uses the MCP3008 chip, I assume you have this chip as well? It is the same chip you need for other analogue sensors. If so, just remember the input you routed your MQ-7 to and add this code to the AirPi/sensors.cfg file on your RPi (Where adcpin should be the pin on the MCP3008):
+
+[MQ-7]
+filename=analogue
+enabled=on
+measurement=Carbon_Monoxide
+adcPin=2
+sensorName=MQ-7
+
+
+This should automatically create a feed on Xively with the measured resistance.
+
+Read more: http://airpi.freeforums.net/thread/122/mics-5525-mq-7#ixzz3mLgC9Tha
+
+http://airpi.freeforums.net/thread/122/mics-5525-mq-7
+
