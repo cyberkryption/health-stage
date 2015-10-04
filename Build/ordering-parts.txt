@@ -1,0 +1,40 @@
+Basic workflow for ordering parts etc
+
+rdering PCB 
+
+Upload PCB file .brd from schematcis directory to OSHpark
+https://oshpark.com/
+
+Ordering Parts
+
+RS Components
+2 x 596-141 - LDR Sensor
+1 x  667-4534 - MCP 6823 Op Amp
+1 x 674-2435 - 8 Way IC Socket
+1 x 674-2432 - 16 Way IC Socket
+1 x 538-9960 - TGS 2600 Gas Sensor
+
+MQ-7 and BMP180
+http://www.coolcomponents.co.uk
+https://www.coolcomponents.co.uk/sensors/temperature-and-pressure
+https://www.coolcomponents.co.uk/carbon-monoxide-sensor-mq-7.html
+
+MCP3008 A/D / Capacitors
+http://cpc.co.uk
+470 uf capacitor 100v
+0.1 uf
+http://cpc.farnell.com/pro-signal/abm-707-rc/microphone-omni-pcb-mount/dp/MP34520
+http://cpc.farnell.com/advanced-photonix/mpy54c569/light-dependent-resistor/dp/RE00180
+http://cpc.farnell.com/microchip/mcp3008-i-p/2-7v-8-channel-10bit-analogue/dp/SC12789?ost=mcp3008&categoryId=700000010687
+
+Amazon
+PII Header socket
+http://www.amazon.co.uk/ThePiHut-Extra-Header-Raspberry-Computer/dp/B00K9THT60/ref=sr_1_2?ie=UTF8&qid=1443944489&sr=8-2&keywords=pi+gpio+header
+
+AM2302 Sensor
+http://www.amazon.co.uk/SODIAL-Digital-Temperature-Humidity-3-5V-6V/dp/B00KBPS6R8/ref=sr_1_1?ie=UTF8&qid=1443944789&sr=8-1&keywords=dht22
+
+Resistors from Ebay packet of 1280 common values
+
+You will also need LED's
+
